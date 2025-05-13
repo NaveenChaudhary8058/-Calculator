@@ -81,14 +81,5 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
-// max limit for the number of characters to display 
 
-function appendValue(val) {
-    const display = document.getElementById('display');
-    if (display.value.length >= 20) {
-      alert("Too many digits! Max limit reached.");
-      return;
-    }
-    display.value += val;
-  }
   
